@@ -3,3 +3,4 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
 import './airport-guide';
+import './flight-tracker';

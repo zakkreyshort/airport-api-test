@@ -1,10 +1,14 @@
 <html>
-  <head>
-    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <title>Airport Guide</title>
-  </head>
-  <body>
-    <div class="container">
+
+<head>
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <title>Airport Guide</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="airport-guide">
       <h1>Get Airport Information!</h1>
       <label for="airport">Enter an airport code (PDX):</label>
       <input id="inputairport" type="text">
@@ -13,5 +17,19 @@
       <div class="showname"></div>
       <div class="gotosite"></div>
     </div>
-  </body>
+
+    <div class="flight-tracker">
+      <h1>Get Flight Information!</h1>
+      <label for="flight">Enter a flight number (AA1):</label>
+      <input id="flight" type="text">
+      <button class="btn-success" id="flightInformation">Get Flight Information!</button>
+      <div class="errors"></div>
+      <div class="showairline"></div>
+      <div class="showflightnumber"></div>
+      <div class="showdepart"></div>
+      <div class="showarrival"></div>
+    </div>
+  </div>
+</body>
+
 </html>
