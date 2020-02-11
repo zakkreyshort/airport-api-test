@@ -29,6 +29,8 @@ $(document).ready(function() {
 
       $('.showarrival').text(`The flight arrived in ${answer[0].arrival.airport.name}`);
 
+      $('.showaircraft').text(`The aircraft model is: ${answer[0].aircraft.model}`);
+
 
     };
   });
